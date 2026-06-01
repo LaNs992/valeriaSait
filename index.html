@@ -1,0 +1,746 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Валерия Сенникова | Портфолио графического дизайнера</title>
+    <!-- Google Fonts Connection -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.cdnfonts.com/css/ouvality-free"
+      rel="stylesheet"
+    />
+
+    <!-- Link to the pure vanilla CSS stylesheet -->
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <!-- HEADER SECTION -->
+    <header class="header">
+      <div class="header-container container">
+        <!-- Logo / Brand Title -->
+        <a href="#hero" class="logo-brand">
+          <span class="logo-subtitle""
+            >Графический дизайнер</span
+          >
+          <span class="logo-title">Сенникова Валерия</span>
+        </a>
+
+        <!-- Desktop Navigation -->
+        <nav class="nav-menu">
+          <a href="#about" class="nav-link" id="link-about">Обо мне</a>
+          <a href="#stages" class="nav-link" id="link-stages">Этапы работы</a>
+          <a href="#portfolio" class="nav-link" id="link-portfolio"
+            >Примеры работ</a
+          >
+          <a href="#contact" class="nav-link cta-nav" id="link-contact"
+            >Сотрудничать</a
+          >
+        </nav>
+
+        <!-- Mobile Hamburguer menu -->
+        <button
+          class="mobile-nav-toggle"
+          id="menu-toggle"
+          aria-label="Открыть меню"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <line x1="4" x2="20" y1="12" y2="12"></line>
+            <line x1="4" x2="20" y1="6" y2="6"></line>
+            <line x1="4" x2="20" y1="18" y2="18"></line>
+          </svg>
+        </button>
+
+        <!-- Mobile Navigation Panel -->
+        <nav class="mobile-sidebar" id="mobile-menu">
+          <a href="#about" class="nav-link">
+            <span>Обо мне</span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="m9 18 6-6-6-6" />
+            </svg>
+          </a>
+          <a href="#stages" class="nav-link">
+            <span>Этапы работы</span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="m9 18 6-6-6-6" />
+            </svg>
+          </a>
+          <a href="#portfolio" class="nav-link">
+            <span>Примеры работ</span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="m9 18 6-6-6-6" />
+            </svg>
+          </a>
+          <a href="#contact" class="nav-link cta-nav">
+            <span>Сотрудничать</span>
+            <span
+              style="
+                height: 8px;
+                width: 8px;
+                border-radius: 50%;
+                background-color: var(--color-burgundy-300);
+              "
+            ></span>
+          </a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- HERO SECTION -->
+      <section id="hero" class="hero">
+        <div class="container">
+          <div class="hero-card">
+            <div class="hero-grid">
+              <!-- Left Column: Content and CTA -->
+              <div class="hero-content">
+                <!-- Quote Block accent -->
+                <div class="hero-quote-block">
+                  <span class="quote-line">Помогаю говорить</span>
+                  <span class="quote-line">с аудиторией через</span>
+                  <span class="quote-accent">визуал</span>
+                </div>
+
+                <!-- Core Display Typography Container -->
+                <div class="hero-typography-container">
+                 
+                  <h1 class="hero-main-title">ГРАФИЧЕСКИЙ</h1>
+                  <div class="hero-sub-title-wrapper">
+                    <span class="hero-display-word">ДИЗАЙНЕР</span>
+                    <span class="hero-overlapping-name">Валерия Сенникова</span>
+                  </div>
+                </div>
+
+                <!-- CTA Button -->
+                <a href="#contact" class="btn-primary">
+                  <span>Сотрудничать</span>
+                  <span class="btn-icon">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="M5 12h14"></path>
+                      <path d="m12 5 7 7-7 7"></path>
+                    </svg>
+                  </span>
+                </a>
+              </div>
+
+              <!-- Right Column: Profile Portrait Image -->
+              <div class="hero-portrait-wrapper">
+                <img
+                  src="/img/mainVal.png"
+                  alt="Валерия Сенникова"
+                  class="hero-portrait"
+                  referrerpolicy="no-referrer"
+                />
+                <div class="hero-portrait-overlay"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+        <div class="container">
+          
+          <h2 class="why-help-title text-constructivist">ПОЧЕМУ Я МОГУ ПОМОЧЬ?</h2>
+          <p class="why-help-sub">Привет! Я – графический дизайнер с опытом 2 года. Работаю с коммерческими и некоммерческими проектами, помогая им выстраивать визуальную коммуникацию с аудиторией</p>
+          
+          <div class="why-help-grid">
+            
+            <!-- Elegant CSS 3D Laptop Mockup Column -->
+            <div class="laptop-mockup-wrapper">
+              <img class="imglap" src="img/comp_1.png" alt="">
+            </div>
+
+            <!-- Content list points -->
+            <div class="help-blocks">
+              <div class="Cont_f">
+              <!-- Key Value Point 1 -->
+              <div class="help-block-item">
+                <h3 class="help-block-title">ОПЫТ</h3>
+                <p class="help-block-desc">2 года в дизайне
+                  </p>
+                   <p class="help-block-desc">
+                   Коммерческие и некоммерческие проекты</p>
+              </div>
+
+              <!-- Key Value Point 2 -->
+              <div class="help-block-item">
+                <h3 class="help-block-title">ОБРАЗОВАНИЕ</h3>
+                <p class="help-block-desc">Высшее образование «Реклама и связи с общественностью» </p>
+                <p class="help-block-desc">Мини-курсы по графическому дизайну</p>
+              </div>
+</div>  
+              <!-- Rated Tools List Point 3 -->
+              <div class="help-block-item">
+                <h3 class="help-block-title">ИНСТРУМЕНТЫ</h3>
+                <div class="tools-list">
+                  <div class="tool-row">
+                    <span class="tool-name">Figma</span>
+                    <span class="stars-rating">★★★★★</span>
+                  </div>
+                  <div class="tool-row">
+                    <span class="tool-name">Adobe Illustrator</span>
+                    <span class="stars-rating">★★★★★</span>
+                  </div>
+                  <div class="tool-row">
+                    <span class="tool-name">Нейросети</span>
+                    <span class="stars-rating">★★★★★</span>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+            <!-- DETAILED STAGES SECTION (Side-by-side grid) -->
+      <section id="stages" class="stages-new">
+        <img class="imgfon" src="./img/Vector.png" alt="">
+        <div class="container">
+          
+          <h2 class="stages-new-title text-constructivist">ЭТАПЫ РАБОТЫ:</h2>
+
+          <div class="stages-new-grid">
+            
+            <!-- Left Side Column: Steps 1, 2, 3 -->
+            <div style="display: flex; flex-direction: column; gap: 40px;align-items: flex-start;">
+              
+              <div class="stage-item-new">
+              
+                <div class="stage-text-group">
+                  <h3 class="stage-title-new"><span class="numto">1/  </span>ОБСУЖДЕНИЕ</h3>
+                  <p class="stage-desc-new">Мы общаемся по поводу проекта, я узнаю ваши пожелания 
+с помощью вопросов</p>
+                </div>
+              </div>
+
+              <div class="stage-item-new">
+               
+                <div class="stage-text-group">
+                  <h3 class="stage-title-new"><span class="numto">2/  </span>РАСЧЕТ СТОИМОСТИ</h3>
+                  <p class="stage-desc-new">Я рассчитываю масштаб работы, предлагаю стоимость услуг и предоплату</p>
+                </div>
+              </div>
+
+              <div class="stage-item-new">
+               
+                <div class="stage-text-group">
+                  <h3 class="stage-title-new"><span class="numto">3/  </span>ВАРИАНТЫ РАБОТЫ</h3>
+                  <p class="stage-desc-new">Я начинаю работу и показываю несколько вариантов дизайна</p>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Right Side Column: Steps 4, 5, 6 -->
+            <div style="display: flex; flex-direction: column; gap: 40px;align-items: flex-start;row-gap: 72px;">
+              
+              <div class="stage-item-new">
+             
+                <div class="stage-text-group">
+                  <h3 class="stage-title-new"><span class="numto">4/  </span>ПРАВКИ</h3>
+                  <p class="stage-desc-new">Вы выбираете то, что больше нравится и вносите необходимые правки.</p>
+                </div>
+              </div>
+
+              <div class="stage-item-new">
+                
+                <div class="stage-text-group">
+                  <h3 class="stage-title-new"><span class="numto">5/  </span>РЕЗУЛЬТАТ</h3>
+                  <p class="stage-desc-new">Я присылаю работы в нужном формате</p>
+                </div>
+              </div>
+
+              <div class="stage-item-new">
+              
+                <div class="stage-text-group">
+                  <h3 class="stage-title-new"><span class="numto">6/  </span>ОПЛАТА</h3>
+                  <p class="stage-desc-new">Вы оплачиваете работу</p>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+         <img class="imgfon2" src="./img/Vector.png" alt="">
+      </section>
+
+      <!-- BRAND CASE STUDY SECTION: ФИЛОЛОГИЧЕСКИЙ ДЕСАНТ -->
+      <section class="editorial-case">
+        <!-- Huge subtle word watermark --> 
+          <img class="imgfon3" src="./img/VectorRef.png" alt="">
+        <div class="case-watermark-bg">ПРИМЕРЫ РАБОТ</div>
+
+        <div class="container">
+          
+          <!-- Centered Section Brand Logo & Slogan Header matching the top of the screenshot -->
+          <div class="case-top-header">
+            <img src="./img/filotr.png" alt="">
+          </div>
+
+          <!-- Top Layout: Phone mockup holding illustration and request speech bubble -->
+          <div class="case-top-row">
+            
+            <!-- Left Side: Hand holding smartphone shape -->
+            <div class="case-phone-column">
+              <img class="phonecase" src="./img/phone.png" alt="">
+            </div>
+
+            <!-- Right Side: Translucent Speech bubble style client request card -->
+            <div class="case-speech-column">
+              <div class="client-speech-bubble">
+                <p class="speech-main-quote">Нужно начертание названия профориентационного проекта кафедры литературы, в последствии макеты продуктов с этим названием. Пожелания: красный - основной цвет, серый/бронзовый - дополнительный, элемент огня, отражение сути проекта через визуал</p>
+                <!-- Decorative pointer tail pointing left to the phone -->
+                <div class="speech-bubble-tail"></div>
+              </div>
+              <div class="speech-bubble-label">ЗАПРОС ЗАКАЗЧИКА</div>
+              <!-- Small footnote label floating under the watermark -->
+              <div class="case-footnote-text">*некоммерческий проект</div>
+            </div>
+
+          </div>
+
+          <!-- Bottom Layout: "МОЕ РЕШЕНИЕ" description & presentation posters collage -->
+          <div class="case-bottom-row">
+            
+            <!-- Left Side: Explanations column -->
+            <div class="solution-explanations-column">
+              <h3 class="solution-title-main text-constructivist">МОЕ РЕШЕНИЕ</h3>
+              <p class="solution-title-cursive">и почему именно так?</p>
+
+              <div class="solution-item-block">
+                <h4 class="solution-item-header">ЦВЕТ:</h4>
+                <p class="solution-item-text">
+                  <span class="solution-bold-text">Бордовый, бежевый, белый, оранжевый –</span> память и уважение к истории, филологическая направленность, энергия молодёжного проекта, серьёзность без «официальной тяжеловесности»
+                </p>
+              </div>
+
+              <div class="solution-item-block">
+                <h4 class="solution-item-header">ШРИФТ:</h4>
+                <p class="solution-item-text">
+                  уважительная и серьёзная атмосфера, литературность, хорошая читаемость в презентациях, афишах и соцсетях
+                </p>
+              </div>
+
+              <div class="solution-item-block">
+                <h4 class="solution-item-header">ЭЛЕМЕНТЫ:</h4>
+                <p class="solution-item-text">
+                  <span class="solution-bold-text">Пламя, птицы, фотографии, бумага –</span> память и история, литература и слово, отражение содержания проекта
+                </p>
+              </div>
+            </div>
+
+            <!-- Right Side: Rich collage of 3 design layouts -->
+            <div class="solution-collage-column">
+              <div class="collage-row-split">
+                
+                <!-- Vertical Poster 1: Glowing dark burgundy amber -->
+                <div class="collage-card-vertical dark-ambient-card">
+                
+                    <img class="postfil" src="./img/post1.png" alt="">
+                 
+                </div>
+
+                <!-- Vertical Poster 2: High-contrast ambient cream -->
+                <div class="collage-card-vertical light-ambient-card">
+                 
+                   <img class="postfil" src="./img/post2.png" alt="">
+                  
+                </div>
+
+              </div>
+
+              <!-- Horizontal Banner: Broad vintage collage style layout -->
+              <div class="collage-card-horizontal">
+               
+                 <img class="postfil" src="./img/post3.png" alt="">
+               
+              </div>
+
+            </div>
+
+          </div>
+          <div class="containerProd">
+              <div class="imgblock">
+                  <div class="imgblockrow">
+                    <img src="./img/rol1.png" alt="">
+                    <img src="./img/rol3.png" alt="">
+                  </div>
+                <div class="imgblockrow">
+                    <img src="./img/rol2.png" alt="">
+                    <img src="./img/rol4.png" alt="">
+                </div>
+            </div>
+            <div class="raidBlock"> 
+  <div class="solution-explanations-column2">
+              <h3 class="solution-title-main text-constructivist">ПРОДУКТЫ</h3>
+              <p class="solution-title-cursive2">что было сделано?</p>
+
+              <div class="solution-item-block2">
+                <h4 class="solution-item-header">кружка  —</h4>
+                
+              </div>
+
+              <div class="solution-item-block2">
+                <h4 class="solution-item-header">ролл-ап  —</h4>
+               
+              </div>
+
+              <div class="solution-item-block2">
+                <h4 class="solution-item-header">пост
+для соц. сетей  —</h4>
+              </div>
+              <div class="solution-item-block2">
+                <h4 class="solution-item-header">бейдж  —</h4>
+              </div>
+              <div class="solution-item-block2">
+                <h4 class="solution-item-header">блокнот  —</h4>
+              </div>
+              <div class="solution-item-block2">
+                <h4 class="solution-item-header">ручка  —</h4>
+              </div>
+              <div class="solution-item-block2">
+                <h4 class="solution-item-header">диплом  —</h4>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </section>
+        
+      <!-- INTERMEDIARY SECTION: НАПРАВЛЕНИЯ РАБОТЫ (CONSTRUCTIVIST STRIP) -->
+      <section class="directions">
+        <div class="container text-center">
+          
+          <div class="directions-grid">
+            
+            <!-- Left vertical strip title -->
+            <div class="vertical-heading-container">
+              <h2 class="vertical-heading">НАПРАВЛЕНИЯ РАБОТЫ:</h2>
+            </div>
+
+            <!-- Right list point items -->
+            <div class="directions-list-grid">
+              <div><div class="direction-item-new">
+                <span class="direction-slash">/</span> Креативы для соцсетей
+              </div>
+              <div class="direction-item-new">
+                <span class="direction-slash">/</span> Упаковка соцсетей
+              </div>
+              <div class="direction-item-new">
+                <span class="direction-slash">/</span> Логотипы и фирменный стиль
+              </div>
+            </div>
+              <div><div class="direction-item-new">
+                <span class="direction-slash">/</span> Печатная продукция
+              </div>
+              <div class="direction-item-new">
+                <span class="direction-slash">/</span> Наружная реклама
+              </div>
+              <div class="direction-item-new">
+                <span class="direction-slash">/</span> Презентации и буклеты
+              </div></div>
+              
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!-- COMPLETE PORTFOLIO GALLERIES (CATEGORIZED TABS/BLOCKS) -->
+      <section id="portfolio" class="portfolio-gallery">
+        <div class="container">
+          <div class="workshop">    
+            <h2 class="nameOne">Упаковка социальных сетей</h2>
+            <h2 class="stages-new-title2 text-constructivist">ПРИМЕРЫ РАБОТ</h2>
+ </div>
+
+          <!-- BLOCK 1: УПАКОВКА СОЦИАЛЬНЫХ СЕТЕЙ -->
+          <div class="portfolio-cat-block">
+            
+            <div class="case-social-grid">
+              
+              <!-- Camp Polaris case card -->
+              <div class="social-card-showcase">
+                <img class="workimg" src="./img/work1.png" alt="">
+                <img class="workimg" src="./img/work2.png" alt="">
+              </div>
+
+              <!-- Paper Vine eco showcase card -->
+              <div class="social-card-showcase">
+                <img src="./img/work3.png" alt="">
+              </div>
+
+            </div>
+          </div>
+
+          <!-- BLOCK 2: ЛОГОТИПЫ -->
+          <div class="portfolio-cat-block">
+            
+            <div class="logos-ribbon">
+              
+              <!-- Logo item 1 -->
+              <div class="logo-item-card">
+                <img class="imgcardCirk" src="./img/circk1.png" alt="">
+              </div>
+
+              <!-- Logo item 2 -->
+              <div class="logo-item-card">
+                <img class="imgcardCirk" src="./img/circk2.png" alt="">
+              </div>
+
+              <!-- Logo item 3 -->
+              <div class="logo-item-card">
+                <img class="imgcardCirk" src="./img/circk3.png" alt="">
+              </div>
+
+              <!-- Logo item 4 -->
+              <div class="logo-item-card">
+                <img class="imgcardCirk" src="./img/circk4.png" alt="">
+              </div>
+                <div class="logo-item-card">
+                  <div class="textcont">   
+                  <div class="grauText">Логотипы</div>
+                  <div class="whiteText">Логотипы</div>
+                  <div class="grauText">Логотипы</div>
+            </div>
+              
+              </div>
+            </div>
+          </div>
+
+          <!-- BLOCK 3: КРЕАТИВЫ ДЛЯ СОЦ.СЕТЕЙ -->
+          <div class="portfolio-cat-block">
+            <h3 class="gallery-section-title text-constructivist">Креативы для соц. сетей</h3>
+            
+           
+              
+              <div class="containerProd">
+              <div class="imgblock">
+                  <div class="imgblockrow">
+                    <img src="./img/rec1.png" alt="">
+                    <img src="./img/rec3.png" alt="">
+                  </div>
+                <div class="imgblockrow">
+                    <img src="./img/rec2.png" alt="">
+                    <img src="./img/rec4.png" alt="">
+                </div>
+            </div>
+             <div>
+               <img src="./img/rec5.png" alt="">
+             </div>
+
+           
+          </div>
+
+          <!-- BLOCK 4: ПЕЧАТНАЯ ПРОДУКЦИЯ & МЕНЮ -->
+        
+       <div class="containerLast">
+
+        <div class="mainClass">
+          <div class="Pipcl">
+            <img src="./img/last1.png" alt="">
+            <img src="./img/last2.png" alt="">
+          </div>
+          <div>
+            <div class="mainTextFt">
+              Печатная продукция
+            </div>
+            <div class="fotClass">
+              <div>
+                <img src="./img/last3.png" alt="">
+              </div>
+              <div class="imgflex">
+                <img src="./img/last4.png" alt="">
+                <img src="./img/last5.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+
+       </div>
+      </section>
+
+      <!-- FINAL CTA / COOPERATION AREA -->
+      <section id="contact" class="cooperation">
+        <div class="container">
+          
+          <h2 class="cooperation-title text-constructivist">ПОРАБОТАЕМ?</h2>
+          
+          <!-- VK & TG Plates -->
+          <div class="social-big-plates">
+            
+            <a href="https://vk.ru/valsnnn" target="_blank" class="social-plate-btn" rel="noopener noreferrer">
+               <img src="./img/max.png" alt="">
+             
+            </a>
+
+            <a href="https://max.ru/u/f9LHodD0cOLTj3bNBjYgTGEISXLUxVM2QlHCQexUIHiZEv4phS1bRiHDF18" target="_blank" class="social-plate-btn" rel="noopener noreferrer">
+              <img src="./img/wk.png" alt="">
+            </a>
+
+          </div>
+
+          <p class="cooperation-sub">Напишите мне для сотрудничества!</p>
+
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER SECTION -->
+    <footer class="footer">
+    <div class="fotcont">
+      <div class="fottext">
+Графический дизайнер
+      </div>
+      <div class="fottext">
+Сенникова Валерия
+      </div>
+    </div>
+    </footer>
+
+    <!-- INTERACTIVE BEHAVIOUR SCRIPTS (Vanilla Javascript) -->
+    <script>
+      // 1. Mobile Sidebar Menu Toggle behavior
+      const menuToggle = document.getElementById("menu-toggle");
+      const mobileMenu = document.getElementById("mobile-menu");
+
+      menuToggle.addEventListener("click", (e) => {
+        e.stopPropagation();
+        mobileMenu.classList.toggle("open");
+      });
+
+      // Close mobile menu on click anywhere outside
+      document.addEventListener("click", (e) => {
+        if (!mobileMenu.contains(e.target) && e.target !== menuToggle) {
+          mobileMenu.classList.remove("open");
+        }
+      });
+
+      // Close mobile menu on link clicks
+      const mobileLinks = mobileMenu.querySelectorAll(".nav-link");
+      mobileLinks.forEach((link) => {
+        link.addEventListener("click", () => {
+          mobileMenu.classList.remove("open");
+        });
+      });
+
+      // 2. Headings active scroll highlights
+      const sections = document.querySelectorAll("section[id]");
+      const navLinks = document.querySelectorAll(".nav-menu .nav-link");
+
+      window.addEventListener("scroll", () => {
+        let currentSectionId = "hero";
+        const scrollPosition = window.scrollY + 180;
+
+        sections.forEach((section) => {
+          const sectionTop = section.offsetTop;
+          const sectionHeight = section.offsetHeight;
+
+          if (
+            scrollPosition >= sectionTop &&
+            scrollPosition < sectionTop + sectionHeight
+          ) {
+            currentSectionId = section.getAttribute("id");
+          }
+        });
+
+        navLinks.forEach((link) => {
+          link.classList.remove("active");
+          if (link.getAttribute("href") === `#${currentSectionId}`) {
+            link.classList.add("active");
+          }
+        });
+      });
+
+      // 3. Contact Form Submission mock interactivity
+      const contactForm = document.getElementById("portfolio-contact-form");
+      const formContainer = document.getElementById("form-container");
+      const successState = document.getElementById("form-success");
+      const btnReset = document.getElementById("btn-reset");
+
+      contactForm.addEventListener("submit", (e) => {
+        e.preventDefault();
+
+        // Form Validation fields
+        const nameVal = document.getElementById("name").value.trim();
+        const contactVal = document.getElementById("contact-info").value.trim();
+
+        if (nameVal && contactVal) {
+          // Hide form layout, show success message
+          contactForm.style.display = "none";
+          successState.classList.add("active");
+
+          console.log("Contact form successfully submitted under vanilla JS:", {
+            name: nameVal,
+            contact: contactVal,
+            type: document.getElementById("project-type").value,
+            details: document.getElementById("details").value,
+          });
+        }
+      });
+
+      // Reset form view back
+      btnReset.addEventListener("click", () => {
+        contactForm.reset();
+        successState.classList.remove("active");
+        contactForm.style.display = "block";
+      });
+    </script>
+  </body>
+</html>
