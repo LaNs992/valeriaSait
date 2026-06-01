@@ -286,11 +286,12 @@ img {
 
 h1.hero-main-title {
   font-family: var(--font-menu);
-  font-size: 40px;
+  font-size: 34px;
   font-weight: 800;
-  letter-spacing: 0.02em;
   color: var(--color-burgundy-main);
   line-height: 1;
+  padding-left: 12px;
+  margin-bottom: -12px;
 }
 
 .hero-sub-title-wrapper {
@@ -388,7 +389,7 @@ h1.hero-main-title {
 }
 .Cont_f {
   display: flex;
-  gap: 200px;
+  gap: 120px;
 }
 .why-help-title {
   font-size: 98px;
@@ -452,13 +453,13 @@ h1.hero-main-title {
   background: url("../img/comp.png");
 }
 .imglap {
-  max-width: 182%;
+  max-width: 203%;
   height: auto;
   display: block;
   position: absolute;
   bottom: 0%;
   left: 1%;
-  top: -308px;
+  top: -233px;
   opacity: 100%;
   background: transparent;
 }
@@ -492,7 +493,7 @@ h1.hero-main-title {
 
 .help-block-item {
   padding-bottom: 25px;
-  width: 248px;
+  width: 348px;
 }
 
 .help-block-title {
@@ -505,7 +506,6 @@ h1.hero-main-title {
 }
 
 .help-block-desc {
-  padding-bottom: 19px;
   text-align: right;
   font-family: var(--font-menu);
   font-size: 18px;
@@ -640,7 +640,7 @@ h1.hero-main-title {
 /* Background watermark */
 .case-watermark-bg {
   position: absolute;
-  top: 29%;
+  top: 28%;
   right: 18%;
   font-family: var(--font-display);
   font-size: 105px;
@@ -653,11 +653,11 @@ h1.hero-main-title {
   z-index: 1;
 }
 .phonecase {
-  left: 41px;
-  top: 9px;
+  left: 40px;
+  top: -147px;
   position: relative;
   z-index: 0;
-  width: 106%;
+  width: 100%;
 }
 /* Top centered header matching the top of the screenshot */
 .case-top-header {
@@ -709,7 +709,7 @@ h1.hero-main-title {
   display: flex;
   align-items: center;
   gap: 50px;
-  margin-bottom: 90px;
+
   position: relative;
   z-index: 5;
 }
@@ -848,7 +848,7 @@ h1.hero-main-title {
   height: 0;
   border-top: 12px solid transparent;
   border-bottom: 12px solid transparent;
-  border-right: 15px solid rgb(58, 1, 3);
+  border-right: 15px solid #5f0002;
 }
 
 .speech-bubble-label {
@@ -866,7 +866,7 @@ h1.hero-main-title {
 }
 
 .case-footnote-text {
-  top: 136%;
+  top: 117%;
   right: 18%;
   position: absolute;
   bottom: -40px;
@@ -915,11 +915,16 @@ h1.hero-main-title {
 
 .solution-title-cursive {
   font-family: var(--font-cursive);
-  font-size: 37px;
-  color: #eae4d9;
-  margin-top: -19px;
-  margin-bottom: 280px;
-  margin-left: 25%;
+  font-size: 42px;
+  color: white;
+  margin-top: -33px;
+  margin-bottom: 180px;
+  margin-left: 16%;
+  text-shadow:
+    -1px -3px 0 #7a0b0d,
+    0px -2px 0 #7a0b0d,
+    -2px -2px 0 #7a0b0d,
+    2px 1px 0 #7a0b0d;
 }
 
 .solution-item-block {
@@ -938,20 +943,27 @@ h1.hero-main-title {
   row-gap: 10px;
 }
 .solution-item-header {
-  font-family: var(--font-display);
-  font-size: 28px;
+  font-family: var(--font-menu);
+  font-size: 25px;
   font-weight: normal;
   color: #ffffff;
   letter-spacing: 0.04em;
   margin-bottom: 8px;
+  font-weight: 500;
+  font-style: italic;
 }
 
 .solution-title-cursive2 {
   font-family: var(--font-cursive);
-  font-size: 34px;
-  color: #eae4d9;
-  margin-top: -15px;
-  margin-bottom: 123px;
+  font-size: 38px;
+  color: white;
+  margin-top: -25px;
+  margin-bottom: 122px;
+  text-shadow:
+    -1px -3px 0 #7a0b0d,
+    0px -2px 0 #7a0b0d,
+    -2px -2px 0 #7a0b0d,
+    2px 1px 0 #7a0b0d;
 }
 .solution-item-block2 {
   margin-bottom: 29px;
@@ -963,10 +975,12 @@ h1.hero-main-title {
 .raidBlock {
 }
 .solution-item-text {
-  font-size: 15px;
+  font-size: 18px;
   line-height: 1.5;
   color: #eae4d9;
   font-weight: 300;
+  max-width: 451px;
+  font-style: italic;
 }
 
 .solution-bold-text {
@@ -1212,7 +1226,7 @@ h1.hero-main-title {
 .vertical-heading-container {
   display: flex;
   align-items: center;
-  padding-right: 40px;
+  padding-right: 120px;
 }
 .workshop {
   margin-bottom: 30px;
@@ -1253,13 +1267,13 @@ h1.hero-main-title {
 }
 
 .direction-item-new {
-  font-size: 32px;
-  font-weight: 600;
+  font-size: 28px;
+  font-weight: 500;
   color: var(--color-burgundy-main);
   padding-bottom: 15px;
   display: flex;
   align-items: center;
-  gap: 15px;
+  gap: 12px;
   margin-bottom: 67px;
   padding-top: 67px;
   font-family: "Mazzard";
@@ -1424,7 +1438,7 @@ h1.hero-main-title {
 .fottext {
   font-family: "Mazzard";
   font-weight: 600;
-  font-size: 40px;
+  font-size: 26px;
   line-height: 101%;
   letter-spacing: 0%;
   color: #5f0002;
@@ -1990,7 +2004,7 @@ h1.hero-main-title {
   .hero-portrait {
     margin-top: 0 !important;
     width: 100% !important;
-    height: 243% !important;
+    height: 130% !important;
     object-fit: cover !important;
   }
 
@@ -2244,6 +2258,7 @@ h1.hero-main-title {
     font-size: 22px !important;
     margin-bottom: 25px !important;
     text-align: center !important;
+    margin-top: -19px;
   }
 
   .solution-item-block {
@@ -2322,6 +2337,7 @@ h1.hero-main-title {
     font-size: 22px !important;
     margin-bottom: 25px !important;
     text-align: center !important;
+    margin-top: -11px;
   }
 
   .solution-item-block2 {
