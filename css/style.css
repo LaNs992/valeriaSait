@@ -2073,8 +2073,8 @@ h1.hero-main-title {
     gap: 30px !important;
     align-items: stretch !important;
     display: flex;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 25px;
+    padding-right: 25px;
   }
 
   .help-blocks {
@@ -2090,7 +2090,7 @@ h1.hero-main-title {
     text-align: center !important;
   }
   .contrTwo {
-    padding-left: 40px;
+    padding-left: 25px;
   }
   .help-block-title {
     text-align: left !important;
