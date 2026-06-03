@@ -2273,11 +2273,11 @@ h1.hero-main-title {
 
   .speech-bubble-label {
     position: relative !important;
-    top: -388px !important;
-    left: 17px !important;
+    top: 102px !important;
+    left: 92px !important;
     margin-top: 10px !important;
     text-align: center !important;
-    font-size: 14px !important;
+    font-size: 10px !important;
   }
 
   .case-footnote-text {
