@@ -223,6 +223,7 @@ img {
 .hero {
   padding: 10px 0 80px 0;
   background-color: var(--color-burgundy-main);
+  margin-top: -40px;
 }
 
 .hero-card {
@@ -257,7 +258,6 @@ img {
   font-family: var(--font-menu);
   font-size: 16px;
   font-weight: 700;
-  text-transform: uppercase;
   color: var(--color-burgundy-main);
   line-height: 1.2;
   letter-spacing: 0.05em;
@@ -362,7 +362,7 @@ h1.hero-main-title {
 }
 
 .hero-portrait {
-  margin-top: 30px;
+  margin-top: 40px;
   width: 100%;
   height: 90%;
   object-fit: cover;
@@ -518,7 +518,7 @@ h1.hero-main-title {
 .tools-list {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 6px;
   margin-top: 15px;
 }
 
@@ -531,7 +531,6 @@ h1.hero-main-title {
 
 .tool-name {
   font-family: "Mazzard";
-  font-weight: 600;
   font-size: 18px;
   line-height: 101%;
   letter-spacing: 0%;
@@ -971,6 +970,7 @@ h1.hero-main-title {
 }
 .containerProd {
   display: grid;
+      gap: 10px;
   grid-auto-flow: column;
 }
 .raidBlock {
@@ -1237,14 +1237,13 @@ h1.hero-main-title {
 }
 .nameOne {
   text-align: left;
-  max-width: 273px;
-  font-family: "Mazzard";
-  font-weight: 600;
-  font-size: 29px;
-
-  line-height: 101%;
-  letter-spacing: 0%;
-  color: #7a0b0d;
+    max-width: 228px;
+    font-family: "Mazzard";
+    font-weight: 600;
+    font-size: 22px;
+    letter-spacing: 0%;
+    color: #7a0b0d;
+    padding-top: 22px;
 }
 .vertical-heading {
   font-family: var(--font-display);
@@ -1308,13 +1307,15 @@ h1.hero-main-title {
 }
 
 .gallery-section-title {
-  font-family: var(--font-display);
+  font-family: var(--font-menu);
   font-size: 23px;
   color: var(--color-burgundy-main);
   margin-bottom: 28px;
   padding-bottom: 10px;
   letter-spacing: 0.02em;
   text-align: center;
+      text-transform: none;
+
 }
 
 /* Category: Social Packaging */
@@ -1324,8 +1325,8 @@ h1.hero-main-title {
   gap: 40px;
 }
 .workimg {
-  max-width: 65%;
-  margin-left: 100px;
+  max-width: 74%;
+  margin-left: 60px;
 }
 .social-card-showcase {
   max-height: 411px;
@@ -1337,6 +1338,7 @@ h1.hero-main-title {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  max-width: 580px;
 }
 
 .social-card-showcase:hover {
@@ -1380,7 +1382,6 @@ h1.hero-main-title {
   text-align: right;
   color: white;
   min-height: 187px;
-  padding-top: 30px;
 }
 .mock-window-header {
   display: flex;
@@ -1767,9 +1768,7 @@ h1.hero-main-title {
 
 .social-plate-btn {
   background-color: rgba(255, 255, 255, 0.08);
-  border: 1px solid rgba(255, 255, 255, 0.15);
   border-radius: var(--border-radius-large);
-  padding: 25px 50px;
   display: flex;
   align-items: center;
   gap: 15px;
@@ -1792,8 +1791,8 @@ h1.hero-main-title {
 }
 
 .cooperation-sub {
-  font-size: 18px;
-  font-weight: 300;
+  font-size: 22px;
+  font-weight: 600;
   opacity: 0.85;
 }
 
@@ -2578,8 +2577,6 @@ h1.hero-main-title {
 }
 
 .social-plate-btn {
-  width: 100% !important;
-  padding: 15px 24px !important;
   justify-content: center !important;
   font-size: 16px !important;
   border-radius: 16px !important;
