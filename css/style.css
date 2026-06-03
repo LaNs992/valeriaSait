@@ -907,7 +907,7 @@ h1.hero-main-title {
 
 .solution-title-main {
   font-family: var(--font-display);
-  font-size: 54px;
+  font-size: 68px;
   font-weight: normal;
   color: #ffffff;
   line-height: 1.05;
@@ -920,7 +920,7 @@ h1.hero-main-title {
   color: white;
   margin-top: -33px;
   margin-bottom: 180px;
-  margin-left: 16%;
+  margin-left: 27%;
   text-shadow:
     -1px -3px 0 #7a0b0d,
     0px -2px 0 #7a0b0d,
@@ -1237,7 +1237,7 @@ h1.hero-main-title {
 }
 .nameOne {
   text-align: left;
-  max-width: 236px;
+  max-width: 273px;
   font-family: "Mazzard";
   font-weight: 600;
   font-size: 29px;
@@ -1701,7 +1701,15 @@ h1.hero-main-title {
 .badge-round-wrap:hover {
   transform: rotateZ(15deg);
 }
-
+.solution-item-header2 {
+  font-family: var(--font-menu);
+  font-size: 25px !important;
+  font-style: italic;
+  font-weight: 500;
+  letter-spacing: 0;
+  text-align: end;
+  margin-bottom: 39px;
+}
 .badge-metal-shine {
   position: absolute;
   top: -50%;
@@ -2048,7 +2056,7 @@ h1.hero-main-title {
 
   /* Flat laptop mockup reset */
   .laptop-mockup-wrapper {
-    position: relative !important;
+    position: static !important;
     height: auto !important;
     display: flex !important;
     justify-content: center !important;
@@ -2057,11 +2065,11 @@ h1.hero-main-title {
   }
 
   .imglap {
-    position: fixed;
-    top: 593px !important;
-    left: 79px !important;
+    position: absolute;
+    top: 1255px !important;
+    left: 92px !important;
     max-width: 100% !important;
-    width: 93% !important;
+    width: 76% !important;
     height: auto !important;
     transform: scaleX(-1);
     opacity: 1 !important;
@@ -2132,13 +2140,13 @@ h1.hero-main-title {
 
   /* Work Stages */
   .stages-new {
-    padding: 50px 0 !important;
+    padding: 5px 0 80px 0 !important;
     max-height: none !important;
     height: auto !important;
   }
 
   .stages-new-title {
-    font-size: 36px !important;
+    font-size: 52px !important;
     margin-bottom: 40px !important;
   }
 
@@ -2155,26 +2163,33 @@ h1.hero-main-title {
     width: 100% !important;
     gap: 30px !important;
     row-gap: 30px !important;
+    
   }
 
   .stage-item-new {
     width: 100% !important;
     padding-bottom: 0 !important;
     gap: 15px !important;
-    justify-content: flex-start !important;
+    justify-content: center !important;
     align-items: flex-start !important;
   }
 
   .stage-title-new {
     font-size: 24px !important;
-    text-align: left !important;
+    text-align: center !important;
   }
 
   .stage-desc-new {
-    font-size: 14px !important;
-    max-width: 100% !important;
-    text-align: left !important;
+    font-size: 10px !important;
+    text-align: center !important;
+    max-width: 174px;
+    font-weight: 500;
   }
+  .stage-text-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
   /* Editorial Case (Филологический десант) mobile adapt */
   .editorial-case {
@@ -2187,7 +2202,10 @@ h1.hero-main-title {
     right: 15px !important;
     opacity: 0.08 !important;
   }
-
+  .case-watermark-bg {
+    position: fixed;
+  
+  }
   .case-top-header {
     margin-bottom: 35px !important;
   }
@@ -2274,32 +2292,40 @@ h1.hero-main-title {
   .solution-explanations-column {
     max-width: 100% !important;
     width: 100% !important;
-    margin-top: 30px;
+    margin-top: 88px;
   }
 
   .solution-title-main {
-    font-size: 32px !important;
-    text-align: center !important;
+    font-size: 40px !important;
+    text-align: right;
   }
 
   .solution-title-cursive {
-    font-size: 22px !important;
-    margin-bottom: 25px !important;
-    text-align: center !important;
-    margin-top: -19px;
+    font-size: 29px !important;
+        margin-bottom: 25px !important;
+        text-align: right !important;
+        margin-top: -24px;
   }
-
+  .text-constructivist {
+   
+    text-align: left;
+}
   .solution-item-block {
     margin-bottom: 30px !important;
-    text-align: center !important;
+    text-align: left !important;
   }
 
   .solution-item-header {
-    font-size: 24px !important;
+    font-family: var(--font-display);
+    font-size: 20px !important;
+    font-style: normal;
+    font-weight: 800;
+    letter-spacing: 0;
   }
 
   .solution-item-text {
-    font-size: 14px !important;
+    font-size: 10px !important;
+    max-width: 250px;
   }
 
   .solution-collage-column {
@@ -2339,7 +2365,13 @@ h1.hero-main-title {
     align-items: center !important;
     gap: 20px !important;
   }
-
+  .directions-list-grid {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 0 !important;
+    padding-left: 0 !important;
+    align-items: stretch !important;
+  }
   .imgblockrow {
     display: flex !important;
     flex-direction: column !important;
@@ -2360,20 +2392,6 @@ h1.hero-main-title {
     text-align: center !important;
     width: 100% !important;
   }
-
-  .solution-title-cursive2 {
-    font-size: 22px !important;
-    margin-bottom: 25px !important;
-    text-align: center !important;
-    margin-top: -11px;
-  }
-
-  .solution-item-block2 {
-    margin-bottom: 12px !important;
-    text-align: center !important;
-  }
-
-  /* Directions (направления) */
   .directions {
     padding: 50px 0 !important;
   }
@@ -2397,13 +2415,7 @@ h1.hero-main-title {
     white-space: normal !important;
   }
 
-  .directions-list-grid {
-    display: flex !important;
-    flex-direction: column !important;
-    gap: 0 !important;
-    padding-left: 0 !important;
-    align-items: stretch !important;
-  }
+
 
   .direction-item-new {
     font-size: 15px !important;
@@ -2413,8 +2425,13 @@ h1.hero-main-title {
     justify-content: center !important;
     border-bottom: 1px solid rgba(122, 11, 13, 0.1) !important;
   }
-
-  /* Portfolio Gallery */
+  .solution-title-cursive2 {
+    font-size: 29px !important;
+    margin-bottom: 25px !important;
+    text-align: left !important;
+    margin-top: -22px;
+    margin-left: 50px;
+  }
   .portfolio-gallery {
     padding: 50px 0 !important;
   }
@@ -2428,7 +2445,7 @@ h1.hero-main-title {
   }
 
   .nameOne {
-    font-size: 22px !important;
+    font-size: 14px !important;
     text-align: center !important;
     max-width: 100% !important;
   }
@@ -2439,8 +2456,11 @@ h1.hero-main-title {
   }
 
   .gallery-section-title {
-    font-size: 18px !important;
+    font-size: 14px;
     margin-bottom: 15px !important;
+    text-align: center;
+    font-family: var(--font-menu);
+    text-transform: none;
   }
 
   .case-social-grid {
@@ -2459,8 +2479,6 @@ h1.hero-main-title {
     margin-left: 0 !important;
     margin: 0 auto !important;
   }
-
-  /* Logos ribbon wrapped to neat row grid */
   .logos-ribbon {
     grid-template-columns: repeat(2, 1fr) !important;
     grid-auto-flow: row !important;
@@ -2485,7 +2503,7 @@ h1.hero-main-title {
     row-gap: 10px !important;
     display: flex;
     flex-direction: row;
-    width: 64px;
+    width: 110px;
     gap: 20px;
   }
 
@@ -2508,7 +2526,7 @@ h1.hero-main-title {
     gap: 20px !important;
     flex-direction: column-reverse;
   }
-}
+
 
 .Pipcl {
   row-gap: 15px !important;
@@ -2550,6 +2568,7 @@ h1.hero-main-title {
 .cooperation-title {
   font-size: 36px !important;
   margin-bottom: 25px !important;
+  text-align: center;
 }
 
 .social-big-plates {
@@ -2582,7 +2601,9 @@ h1.hero-main-title {
   gap: 12px !important;
   text-align: center !important;
 }
-
+.text-constructivist2{
+  text-align: end;
+}
 .header {
   position: fixed;
   width: 100%;
@@ -2590,6 +2611,30 @@ h1.hero-main-title {
 .fottext {
   font-size: 20px !important;
 }
+.solution-item-header2 {
+  font-family: var(--font-menu);
+  font-size: 14px !important;
+  font-style: italic;
+  font-weight: 500;
+  letter-spacing: 0;
+  text-align: center
+}
+}
+
+
+  .solution-item-block2 {
+    margin-bottom: 12px !important;
+    text-align: center !important;
+  }
+
+  /* Directions (направления) */
+ 
+
+  /* Portfolio Gallery */
+  
+
+  /* Logos ribbon wrapped to neat row grid */
+  
 
 @media (max-width: 400px) {
   /* Global Layout, paddings, typography */
