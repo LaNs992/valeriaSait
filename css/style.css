@@ -867,7 +867,7 @@ h1.hero-main-title {
 }
 
 .case-footnote-text {
-  top: 117%;
+  top: 110%;
   right: 18%;
   position: absolute;
   bottom: -40px;
@@ -2661,4 +2661,32 @@ h1.hero-main-title {
     letter-spacing: 0.02em;
     z-index: 1;
   }
+}
+@media (max-width: 1510px) {
+  /* Global Layout, paddings, typography */
+  .case-watermark-bg {
+    position: absolute;
+    top: 28%;
+    right: 9%;
+    font-family: var(--font-display);
+    font-size: 105px;
+    color: rgba(30, 0, 1, 0.4);
+    pointer-events: none;
+    line-height: 1;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 0.02em;
+    z-index: 1;
+}
+.case-footnote-text {
+  top: 109%;
+  right: 18%;
+  position: absolute;
+  bottom: -40px;
+  right: 0;
+  font-size: 18px;
+  color: rgba(30, 0, 1, 0.4);
+  font-style: italic;
+  font-family: var(--font-sans);
+}
 }
