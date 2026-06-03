@@ -640,7 +640,7 @@ h1.hero-main-title {
 /* Background watermark */
 .case-watermark-bg {
   position: absolute;
-  top: 28%;
+  top: 24%;
   right: 18%;
   font-family: var(--font-display);
   font-size: 105px;
@@ -815,16 +815,15 @@ h1.hero-main-title {
 
 /* Translucent speech bubble client request structure */
 .client-speech-bubble {
-  background-color: #5f0002; /* matches exact dark speech bubble center color */
+  background-color: #5f0002;
   border: 1px solid rgba(255, 255, 255, 0.05);
   border-radius: 24px;
   padding: 30px 40px;
   position: relative;
-
   max-width: 565px;
   margin-left: 20px;
   min-height: 210px;
-  top: -48px;
+  top: -144px;
   left: -263px;
 }
 .postfil {
@@ -859,14 +858,14 @@ h1.hero-main-title {
   letter-spacing: 0.15em;
   font-weight: 300;
   color: #ffffff;
-  top: -50px;
+  top: -148px;
   left: -269px;
   position: relative;
   font-style: italic;
 }
 
 .case-footnote-text {
-  top: 110%;
+  top: 73%;
   right: 18%;
   position: absolute;
   bottom: -40px;
@@ -970,7 +969,7 @@ h1.hero-main-title {
 }
 .containerProd {
   display: grid;
-      gap: 10px;
+  gap: 10px;
   grid-auto-flow: column;
 }
 .raidBlock {
@@ -1097,7 +1096,13 @@ h1.hero-main-title {
   padding: 30px;
   transition: var(--transition-smooth);
 }
-
+.maintxt {
+  font-style: normal;
+  font-weight: 800;
+  letter-spacing: 0em;
+  font-family: var(--font-display);
+  font-size: 38px;
+}
 .collage-card-horizontal:hover {
   transform: translateY(-5px);
   box-shadow: 0 18px 40px rgba(0, 0, 0, 0.4);
@@ -1237,13 +1242,16 @@ h1.hero-main-title {
 }
 .nameOne {
   text-align: left;
-    max-width: 228px;
-    font-family: "Mazzard";
-    font-weight: 600;
-    font-size: 22px;
-    letter-spacing: 0%;
-    color: #7a0b0d;
-    padding-top: 22px;
+  max-width: 228px;
+  font-family: "Mazzard";
+  font-weight: 600;
+  font-size: 22px;
+  letter-spacing: 0%;
+  color: #7a0b0d;
+  padding-top: 22px;
+}
+.imgkreat {
+  max-width: 96%;
 }
 .vertical-heading {
   font-family: var(--font-display);
@@ -1314,8 +1322,7 @@ h1.hero-main-title {
   padding-bottom: 10px;
   letter-spacing: 0.02em;
   text-align: center;
-      text-transform: none;
-
+  text-transform: none;
 }
 
 /* Category: Social Packaging */
@@ -1338,7 +1345,7 @@ h1.hero-main-title {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  max-width: 580px;
+  min-width: 580px;
 }
 
 .social-card-showcase:hover {
@@ -1357,6 +1364,7 @@ h1.hero-main-title {
   padding: 30px;
   gap: 30px;
 }
+
 .fotClass {
   display: flex;
   align-items: center;
@@ -1520,6 +1528,7 @@ h1.hero-main-title {
   display: flex;
   flex-direction: column;
   row-gap: 30px;
+  min-width: 159px;
 }
 .logo-vector-brand {
   font-family: "Playfair Display", serif;
@@ -2081,7 +2090,7 @@ h1.hero-main-title {
     align-items: stretch !important;
     display: flex;
     padding-left: 25px;
-    padding-right: 25px;
+    padding-right: 11px;
   }
 
   .help-blocks {
@@ -2162,7 +2171,6 @@ h1.hero-main-title {
     width: 100% !important;
     gap: 30px !important;
     row-gap: 30px !important;
-    
   }
 
   .stage-item-new {
@@ -2188,7 +2196,7 @@ h1.hero-main-title {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
+  }
 
   /* Editorial Case (Филологический десант) mobile adapt */
   .editorial-case {
@@ -2203,9 +2211,7 @@ h1.hero-main-title {
   }
   .case-watermark-bg {
     position: fixed;
-        display:none ;
-
-  
+    display: none;
   }
   .case-top-header {
     margin-bottom: 35px !important;
@@ -2303,14 +2309,13 @@ h1.hero-main-title {
 
   .solution-title-cursive {
     font-size: 29px !important;
-        margin-bottom: 25px !important;
-        text-align: right !important;
-        margin-top: -24px;
+    margin-bottom: 25px !important;
+    text-align: right !important;
+    margin-top: -24px;
   }
   .text-constructivist {
-   
     text-align: left;
-}
+  }
   .solution-item-block {
     margin-bottom: 30px !important;
     text-align: left !important;
@@ -2332,7 +2337,10 @@ h1.hero-main-title {
   .solution-collage-column {
     width: 100% !important;
   }
-
+  .fill_txt {
+    text-align: center;
+    font-size: 50px;
+  }
   .collage-row-split {
     gap: 20px !important;
     margin-bottom: 20px !important;
@@ -2346,6 +2354,7 @@ h1.hero-main-title {
     width: 100% !important;
     height: auto !important;
     object-fit: cover !important;
+    height: 228px !important;
   }
 
   .collage-card-horizontal {
@@ -2416,8 +2425,6 @@ h1.hero-main-title {
     white-space: normal !important;
   }
 
-
-
   .direction-item-new {
     font-size: 15px !important;
     margin-bottom: 12px !important;
@@ -2473,6 +2480,7 @@ h1.hero-main-title {
     max-height: none !important;
     height: auto !important;
     padding: 15px !important;
+    min-width: 100px;
   }
 
   .workimg {
@@ -2505,7 +2513,8 @@ h1.hero-main-title {
     display: flex;
     flex-direction: row;
     width: 110px;
-    gap: 20px;
+    gap: 35px;
+    min-width: 143px;
   }
 
   .grauText,
@@ -2527,113 +2536,110 @@ h1.hero-main-title {
     gap: 20px !important;
     flex-direction: column-reverse;
   }
-
-
-.Pipcl {
-  row-gap: 15px !important;
-  align-items: center !important;
-}
-
-.Pipcl img,
-.fotClass img,
-.imgflex img {
-  max-width: 100% !important;
-  height: auto !important;
-}
-
-.mainTextFt {
-  min-height: auto !important;
-  text-align: center !important;
-  padding-top: 10px !important;
-  margin-bottom: 20px !important;
-  font-size: 18px !important;
-}
-
-.fotClass {
-  display: flex;
-  gap: 20px !important;
-  align-items: center !important;
-}
-
-.imgflex {
-  row-gap: 15px !important;
-  padding-bottom: 0 !important;
-  align-items: center !important;
-}
-
-/* Cooperation & Contact details */
-.cooperation {
-  padding: 60px 0 !important;
-}
-
-.cooperation-title {
-  font-size: 36px !important;
-  margin-bottom: 25px !important;
-  text-align: center;
-}
-
-.social-big-plates {
-  display: flex;
-  flex-direction: row;
-  gap: 15px !important;
-}
-
-.social-plate-btn {
-  justify-content: center !important;
-  font-size: 16px !important;
-  border-radius: 16px !important;
-}
-
-.cooperation-sub {
-  font-size: 14px !important;
-}
-
-/* Double-row footer style standard */
-.footer {
-  padding: 30px 0 !important;
-}
-
-.fotcont {
-  display: flex;
-  flex-direction: row;
-  align-items: center !important;
-  gap: 12px !important;
-  text-align: center !important;
-}
-.text-constructivist2{
-  text-align: end;
-}
-.header {
-  position: fixed;
-  width: 100%;
-}
-.fottext {
-  font-size: 20px !important;
-}
-.solution-item-header2 {
-  font-family: var(--font-menu);
-  font-size: 14px !important;
-  font-style: italic;
-  font-weight: 500;
-  letter-spacing: 0;
-  text-align: center
-}
-}
-
-
-  .solution-item-block2 {
-    margin-bottom: 12px !important;
-    text-align: center !important;
+  .imgkreat {
+    max-width: 100%;
+  }
+  .Pipcl {
+    row-gap: 15px !important;
+    align-items: center !important;
   }
 
-  /* Directions (направления) */
- 
+  .Pipcl img,
+  .fotClass img,
+  .imgflex img {
+    max-width: 100% !important;
+    height: auto !important;
+  }
 
-  /* Portfolio Gallery */
-  
+  .mainTextFt {
+    min-height: auto !important;
+    text-align: center !important;
+    padding-top: 10px !important;
+    margin-bottom: 20px !important;
+    font-size: 18px !important;
+  }
 
-  /* Logos ribbon wrapped to neat row grid */
-  
+  .fotClass {
+    display: flex;
+    gap: 20px !important;
+    align-items: center !important;
+  }
+
+  .imgflex {
+    row-gap: 15px !important;
+    padding-bottom: 0 !important;
+    align-items: center !important;
+  }
+
+  /* Cooperation & Contact details */
+  .cooperation {
+    padding: 60px 0 !important;
+  }
+
+  .cooperation-title {
+    font-size: 36px !important;
+    margin-bottom: 25px !important;
+    text-align: center;
+  }
+
+  .social-big-plates {
+    display: flex;
+    flex-direction: row;
+    gap: 15px !important;
+  }
+
+  .social-plate-btn {
+    justify-content: center !important;
+    font-size: 16px !important;
+    border-radius: 16px !important;
+  }
+
+  .cooperation-sub {
+    font-size: 14px !important;
+  }
+
+  /* Double-row footer style standard */
+  .footer {
+    padding: 30px 0 !important;
+  }
+
+  .fotcont {
+    display: flex;
+    flex-direction: row;
+    align-items: center !important;
+    gap: 12px !important;
+    text-align: center !important;
+  }
+  .text-constructivist2 {
+    text-align: end;
+  }
+  .header {
+    position: fixed;
+    width: 100%;
+  }
+  .fottext {
+    font-size: 20px !important;
+  }
+  .solution-item-header2 {
+    font-family: var(--font-menu);
+    font-size: 14px !important;
+    font-style: italic;
+    font-weight: 500;
+    letter-spacing: 0;
+    text-align: center;
+  }
+}
+
+.solution-item-block2 {
+  margin-bottom: 12px !important;
+  text-align: center !important;
+}
+
+/* Directions (направления) */
+
+/* Portfolio Gallery */
+
+/* Logos ribbon wrapped to neat row grid */
 
 @media (max-width: 400px) {
   /* Global Layout, paddings, typography */
@@ -2660,19 +2666,18 @@ h1.hero-main-title {
     font-weight: 900;
     letter-spacing: 0.02em;
     z-index: 1;
-    
-}
-.case-footnote-text {
-  top: 109%;
-  right: 18%;
-  position: absolute;
-  bottom: -40px;
-  right: 0;
-  font-size: 18px;
-  color: rgba(30, 0, 1, 0.4);
-  font-style: italic;
-  font-family: var(--font-sans);
-}
+  }
+  .case-footnote-text {
+    top: 109%;
+    right: 18%;
+    position: absolute;
+    bottom: -40px;
+    right: 0;
+    font-size: 18px;
+    color: rgba(30, 0, 1, 0.4);
+    font-style: italic;
+    font-family: var(--font-sans);
+  }
 }
 @media (max-width: 1300px) {
   /* Global Layout, paddings, typography */
